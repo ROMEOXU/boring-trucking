@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import { FaHome } from "react-icons/fa";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       <h1>Welcome to Boring trucking</h1>
+     <FaHome size='10rem'/>
+       <h1>Welcome to Boring trucking!!!</h1>
        <h3>we provide high quality Port Drayage service</h3>
        
       </header>
